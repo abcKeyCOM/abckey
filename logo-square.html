@@ -19,14 +19,6 @@
 
     .logo {
       display: flex;
-      -webkit-perspective: 777px;
-    }
-
-    .left {
-      z-index: 1;
-      position: relative;
-      right: -45px;
-      transform: rotateY(-33deg)scale(.97);
     }
 
     .left .abc {
@@ -41,22 +33,21 @@
     }
 
     .right {
-      margin-left: 18px;
-      width: 300px;
+      width: 188px;
       height: 300px;
       background: #24292e;
-      color: #fff;
       display: flex;
       align-items: center;
-      font-size: 152px;
-      transform: rotateY(33deg)scale(.9);
+      margin-left: 12px;
     }
 
     .right .key {
       position: relative;
-      left: -32px;
-      top: 32px;
-      letter-spacing: 16px;
+      left: -19px;
+      top: 72px;
+      letter-spacing: 12px;
+      font-size: 90px;
+      color: #fff;
     }
 
     .github {
@@ -66,20 +57,30 @@
       height: 100%;
       position: fixed;
     }
+
+    .slogan {
+      text-align: center;
+      line-height: 1;
+      font-size: 34px;
+      margin-top: 34px;
+    }
   </style>
 </head>
 
 <body>
   <a class="github" href="https://github.com/abcKeyCOM"></a>
-  <div class="logo">
-    <div class="left">
-      <div class="abc">A</div>
-      <div class="abc">B</div>
-      <div class="abc">C</div>
+  <div>
+    <div class="logo">
+      <div class="left">
+        <div class="abc">A</div>
+        <div class="abc">B</div>
+        <div class="abc">C</div>
+      </div>
+      <div class="right">
+        <span class="key">Key</span>
+      </div>
     </div>
-    <div class="right">
-      <span class="key">Key</span>
-    </div>
+    <div class="slogan"> A BlockChain Key</div>
   </div>
 </body>
 

@@ -21,10 +21,6 @@
       display: flex;
     }
 
-    .left {
-      margin-right: 18px;
-    }
-
     .left .abc {
       display: flex;
       justify-content: center;
@@ -37,6 +33,7 @@
     }
 
     .right {
+      margin-left: 18px;
       width: 300px;
       height: 300px;
       background: #24292e;
@@ -60,20 +57,30 @@
       height: 100%;
       position: fixed;
     }
+
+    .slogan {
+      text-align: center;
+      line-height: 1;
+      font-size: 47px;
+      margin-top: 47px;
+    }
   </style>
 </head>
 
 <body>
   <a class="github" href="https://github.com/abcKeyCOM"></a>
-  <div class="logo">
-    <div class="left">
-      <div class="abc">A</div>
-      <div class="abc">B</div>
-      <div class="abc">C</div>
+  <div>
+    <div class="logo">
+      <div class="left">
+        <div class="abc">A</div>
+        <div class="abc">B</div>
+        <div class="abc">C</div>
+      </div>
+      <div class="right">
+        <span class="key">Key</span>
+      </div>
     </div>
-    <div class="right">
-      <span class="key">Key</span>
-    </div>
+    <div class="slogan"> A BlockChain Key</div>
   </div>
 </body>
 

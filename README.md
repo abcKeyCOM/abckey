@@ -1,3 +1,9 @@
-![image](logo-1-default.png)
+![image](logo-favicon.ico)
 
-![image](logo-2-default.png)
+![image](logo-rectangular.png)
+
+![image](logo-square.png)
+
+![image](logo-square-qrcode.png)
+
+![image](logo-stereoscopic.png)

@@ -2,8 +2,8 @@
 ## Case
 
 - ✓ ABCKEY
-- ✓ ABCKey
 - ✓ abckey
+- × ABCKey
 - × Abckey
 - × abcKey
 - × abc-key
